@@ -30,7 +30,7 @@
 
 		var searchTerm = $(this).attr("data-value");
 
-		queryURL = "http://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=wmsl6UYmnOUERuSlr6WVLcQ9yhdvRUdv&limit=10";
+		queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=wmsl6UYmnOUERuSlr6WVLcQ9yhdvRUdv&limit=10";
 
 		var Obj = {};
 
